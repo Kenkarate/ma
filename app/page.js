@@ -1,5 +1,5 @@
 "use client";
-import Banner from "@/components/Banner";
+import Banner from "@/components/sections/HomePage/Banner";
 import Header from "@/components/Header";
 import { Typography } from "antd";
 

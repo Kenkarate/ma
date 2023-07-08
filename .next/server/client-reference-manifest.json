@@ -40,14 +40,6 @@
         "async": false
       }
     },
-    "(app-client)/./app/page.js": {
-      "*": {
-        "id": "(sc_client)/./app/page.js",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./components/Header.js": {
       "*": {
         "id": "(sc_client)/./components/Header.js",
@@ -59,6 +51,14 @@
     "(app-client)/./components/Footer.js": {
       "*": {
         "id": "(sc_client)/./components/Footer.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./app/page.js": {
+      "*": {
+        "id": "(sc_client)/./app/page.js",
         "name": "*",
         "chunks": [],
         "async": false
@@ -147,14 +147,6 @@
       ],
       "async": false
     },
-    "/Users/ajeshofficial/Documents/Creative Agency/Website/creative-agency/app/page.js": {
-      "id": "(app-client)/./app/page.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
     "/Users/ajeshofficial/Documents/Creative Agency/Website/creative-agency/node_modules/next/font/google/target.css?{\"path\":\"app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
       "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
       "name": "*",
@@ -186,14 +178,22 @@
         "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
+    },
+    "/Users/ajeshofficial/Documents/Creative Agency/Website/creative-agency/app/page.js": {
+      "id": "(app-client)/./app/page.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
     }
   },
   "entryCSSFiles": {
-    "/Users/ajeshofficial/Documents/Creative Agency/Website/creative-agency/app/page": [
-      "static/css/app/page.css"
-    ],
     "/Users/ajeshofficial/Documents/Creative Agency/Website/creative-agency/app/layout": [
       "static/css/app/layout.css"
+    ],
+    "/Users/ajeshofficial/Documents/Creative Agency/Website/creative-agency/app/page": [
+      "static/css/app/page.css"
     ]
   }
 }

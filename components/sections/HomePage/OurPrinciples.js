@@ -1,3 +1,4 @@
+"use client"
 import { useInView } from "framer-motion";
 import React, { useRef } from "react";
 import { motion } from "framer-motion";
@@ -6,13 +7,13 @@ function OurPrinciples() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
   return (
-    <div className="py-44 bg-secondary">
+    <div className="lg:py-44 py-20 bg-secondary">
       <div
         ref={ref}
         className="text-black flex justify-center z-10  relative bg-secondary "
       >
         <motion.p
-          className="text-primary text-[80px] uppercase font-semibold "
+          className="text-primary lg:text-[80px] text-[35px] uppercase font-semibold "
           style={{
             transform: isInView ? "none" : "translateX(-200px)",
             opacity: isInView ? 1 : 0,
@@ -23,9 +24,9 @@ function OurPrinciples() {
           Our Principles
         </motion.p>
       </div>
-      <div className="grid grid-cols-2 px-20 py-20 relative bg-[#0F253D]">
-        <div className="border-r w-full h-full px-20 py-4 text-right border-primary">
-          <p className="text-primary " level={3}>
+      <div className="grid lg:grid-cols-2 lg:px-20 py-20 relative bg-[#0F253D]">
+        <div className="lg:border-r w-full h-full px-20 py-4 text-right border-primary">
+          <p className="text-primary  text-lg font-bold border-b" level={3}>
             Do it with passion or not at all
           </p>
           <p className="text-primary" level={5}>
@@ -33,10 +34,10 @@ function OurPrinciples() {
             heart and mind, this is why we wake up in the morning!
           </p>
         </div>
-        <div className="border-l w-full h-full px-20 py-4 text-left border-primary"></div>
-        <div className="border-r w-full h-full px-20 py-4 text-left border-primary"></div>
-        <div className="border-l w-full h-full px-20 py-4 text-left border-primary ">
-          <p className="text-primary " level={3}>
+        <div className="lg:border-l w-full h-full px-20 py-4 text-left border-primary"></div>
+        <div className="lg:border-r w-full h-full px-20 py-4 text-left border-primary"></div>
+        <div className="lg:border-l w-full h-full px-20 py-4 text-left border-primary ">
+          <p className="text-primary  text-lg font-bold border-b" level={3}>
             There Is A Great Solution, Buried In Every Challenge
           </p>
           <p className="text-primary" level={5}>
@@ -45,10 +46,10 @@ function OurPrinciples() {
             your challenges and we reimagine your future.
           </p>
         </div>
-        <div className="border-r w-full h-full px-20 py-4 text-left border-primary"></div>
-        <div className="border-l w-full h-full px-20 py-4 text-left border-primary"></div>
-        <div className="border-r w-full h-full px-20 py-4 text-right border-primary ">
-          <p className="text-primary " level={3}>
+        <div className="lg:border-r w-full h-full px-20 py-4 text-left border-primary"></div>
+        <div className="lg:border-l w-full h-full px-20 py-4 text-left border-primary"></div>
+        <div className="lg:border-r w-full h-full px-20 py-4 text-right border-primary ">
+          <p className="text-primary  text-lg font-bold border-b" level={3}>
             Leave A Mark On The World’s Cultural Fabric
           </p>
           <p className="text-primary" level={5}>
@@ -56,12 +57,12 @@ function OurPrinciples() {
             outlasts movements and trends and redefines culture.
           </p>
         </div>
-        <div className="border-l w-full h-full px-20 py-4 text-left border-primary"></div>
+        <div className="lg:border-l w-full h-full px-20 py-4 text-left border-primary"></div>
 
-        <div className="border-r w-full h-full px-20 py-4 text-left border-primary"></div>
+        <div className="lg:border-r w-full h-full px-20 py-4 text-left border-primary"></div>
 
-        <div className="border-l w-full h-full px-20 py-4 text-left border-primary ">
-          <p className="text-primary " level={3}>
+        <div className="lg:border-l w-full h-full px-20 py-4 text-left border-primary ">
+          <p className="text-primary  text-lg font-bold border-b" level={3}>
             Sky Is NOT The Limit
           </p>
           <p className="text-primary" level={5}>

@@ -7,7 +7,7 @@ import { Reveal } from "./Reveal";
 
 function Banner() {
   return (
-    <div className="h-screen grid grid-cols-2 text-[#0F253D] select-none ">
+    <div className="lg:h-screen md:text-center grid lg:grid-cols-2 text-[#0F253D] select-none ">
       <div className="my-[25%] mx-[25%]">
         <Reveal>
           <h1 className="uppercase text-4xl font-extrabold h-20 leading-tight">
@@ -20,13 +20,13 @@ function Banner() {
           <br />
           <br />
 
-          <p className="">
+          <p className="hidden sm:block">
             Marketing Angles is an independent branding & marketing agency that
             exists to solve problems through creativity and technology.{" "}
           </p>
         </Reveal>
         <Reveal>
-          <button className="my-10 border rounded px-2 hover:text-black hover:border-black border-[#0F253D] hover:shadow-lg font-semibold text-lg ">
+          <button className="my-10  border rounded px-2 hover:text-black hover:border-black border-[#0F253D] hover:shadow-lg font-semibold text-lg ">
             Get in touch with US
           </button>
         </Reveal>
@@ -41,7 +41,7 @@ function Banner() {
         animate="visible"
         transition={{ duration: 0.5, delay: 0.15 }}
       >
-        <Image className="p-10 " src={bannerimage} />
+        <Image className="md:p-10 " src={bannerimage} />
       </motion.div>
     </div>
   );

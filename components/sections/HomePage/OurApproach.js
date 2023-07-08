@@ -1,3 +1,4 @@
+"use client"
 import { Reveal } from "@/components/Reveal";
 import { motion, useInView } from "framer-motion";
 import React, { useRef } from "react";

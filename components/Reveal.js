@@ -2,7 +2,7 @@
 import { motion, useAnimation, useInView } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 
-export const Reveal = ({ children, width = "fit-content", fromDirection }) => {
+export const Reveal = ({ children, width = "lg:fit-content", fromDirection }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: false });
   const [useDirection, setUseDirection] = useState();

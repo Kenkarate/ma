@@ -11,8 +11,8 @@ import { Space } from "antd";
 function Footer() {
   return (
     <div>
-      <div className="text-white grid grid-cols-2">
-        <div className=" bg-black relative flex flex-col px-44 py-10 ">
+      <div className="text-white grid lg:grid-cols-2">
+        <div className=" bg-black relative flex flex-col px-10 lg:px-44 py-10 ">
           <p className="text-4xl font-bold uppercase">
             Let's meet up for a coffee and talk
           </p>
@@ -24,7 +24,7 @@ function Footer() {
             lasting imprint on hearts and minds."
           </p>
         </div>
-        <div className="py-10 text-right px-44">
+        <div className="py-10 px-20 text-right lg:px-44">
           <p className="text-black text-2xl font-semibold  ">Head Office</p>
           <p className="text-secondary text-4xl font-bold  ">Aluva</p>
           <div className=" uppercase text-secondary font-semibold py-5">

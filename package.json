@@ -10,9 +10,13 @@
   },
   "dependencies": {
     "@ant-design/icons": "^5.1.4",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
     "@headlessui/react": "^1.7.15",
     "@heroicons/react": "^2.0.18",
     "@motionone/utils": "^10.15.1",
+    "@mui/icons-material": "^5.13.7",
+    "@mui/material": "^5.13.7",
     "antd": "^5.6.4",
     "framer-motion": "^10.12.18",
     "gsap": "^3.12.2",

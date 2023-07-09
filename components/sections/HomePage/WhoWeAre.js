@@ -7,7 +7,7 @@ import { Reveal } from "@/components/Reveal";
 
 function WhoWeAre() {
   return (
-    <div className="bg-secondary py-20 lg:w-[100vw]">
+    <div className="bg-secondary py-20 ">
       <ParallaxText baseVelocity={5} number={5}>
         Thinkers Designers Stratergist Developers
       </ParallaxText>

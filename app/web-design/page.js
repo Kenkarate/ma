@@ -2,6 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Footer from "@/components/sections/web-design/Footer";
+import Card from "@/components/sections/web-design/WebDesignPortfolio";
 
 function page() {
   return (
@@ -23,9 +24,16 @@ function page() {
           <source src="/codingvideo.mp4" />
         </video>
       </div>
+      <div className="bg-blueish">
+        <h3 className="text-3xl">Our works</h3>
+        <div className="">
 
+            <Card/>
+
+        </div>
+      </div>
       <div>
-        <p className="md:text-3xl text-black py-20 px-20">
+        <p className="text-[40px] font-semibold  text-black py-20 px-20">
           “Your website is the center of your digital eco-system, like a brick
           and mortar location, the experience matters once a customer enters,
           just as much as the perception they have of you before they walk

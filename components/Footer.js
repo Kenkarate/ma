@@ -12,7 +12,7 @@ function Footer() {
   return (
     <div>
       <div className="text-white grid lg:grid-cols-2">
-        <div className=" bg-black relative flex flex-col px-10 lg:px-44 py-10 ">
+        <div className="bg-black relative flex flex-col px-10 lg:px-44 py-10 ">
           <p className="text-4xl font-bold uppercase">
             Let's meet up for a coffee and talk
           </p>

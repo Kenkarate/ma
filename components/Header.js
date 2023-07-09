@@ -8,7 +8,7 @@ function Header() {
   const items = [
     {
       key: "1",
-      label: <Link href="/web-development">Web Development</Link>,
+      label: <Link href="/web-development">Web Design</Link>,
     },
     {
       key: "2",
@@ -24,12 +24,12 @@ function Header() {
     },
   ];
   return (
-    <div className="w-full h-[10vh]  flex justify-between select-none text-blueish">
-      <div className="pl-[12vw] my-auto text-lg font-semibold cursor-pointer">
-        Home
+    <div className="w-full h-[7vh]  flex justify-between select-none text-blueish">
+      <div className="pl-[12vw] my-auto text-lg font-semibold cursor-pointer hidden md:block" >
+        <Link href={'/'}>Home</Link>
       </div>
-      <div className="pr-[20vw] my-auto  flex gap-5 text-lg font-semibold cursor-pointer">
-        <p>Home</p>
+      <div className="px-[20vw] my-auto flex gap-5 text-lg font-semibold cursor-pointer">
+        <Link href={'/'}>Home</Link>
         <Dropdown menu={{ items }}>
           <a onClick={(e) => e.preventDefault()}>
             <Space>Services</Space>

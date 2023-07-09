@@ -14,17 +14,17 @@ import { useRef } from "react";
 import WhoWeAre from "@/components/sections/HomePage/WhoWeAre";
 import OurMission from "@/components/sections/HomePage/OurMission";
 import OurPrinciples from "@/components/sections/HomePage/OurPrinciples";
+import Footer from "@/components/Footer";
 
 export default function Home() {
- 
   return (
     <main className="">
+      <Header/>
       <Banner />
       <WhoWeAre />
       <OurMission />
-      
-      <OurPrinciples/>
-
+      <OurPrinciples />
+      <Footer/>
       {/* <OurApproach /> */}
     </main>
   );

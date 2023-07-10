@@ -3,10 +3,13 @@ import React from "react";
 import { motion } from "framer-motion";
 import Footer from "@/components/sections/web-design/Footer";
 import Card from "@/components/sections/web-design/WebDesignPortfolio";
+import Header from "@/components/Header";
+import WhatWeProvide from "@/components/sections/web-design/WhatWeProvide";
 
 function page() {
   return (
     <div>
+      <Header color='black' textColor='white'/>
       <div className="flex justify-start ">
         <h1 className="p-10 lg:w-[60vw] xl:text-[80px] my-[5%] lg:text-[50px]  md:text-[50px] text-xl md:leading-tight lg:leading-[80px] text-center lg:text-left  !text-white font-extrabold absolute">
           “There are three responses to a piece of design – yes, no, and WOW!{" "}
@@ -24,12 +27,18 @@ function page() {
           <source src="/codingvideo.mp4" />
         </video>
       </div>
+      <WhatWeProvide/>
       <div className="bg-blueish">
-        <h3 className="text-3xl">Our works</h3>
+        <motion.h3
+          initial={{ x: -1200, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{duration:0.9}}
+          className="text-[190px] uppercase py-10 font-extrabold pl-10"
+        >
+          Portfolio
+        </motion.h3>
         <div className="">
-
-            <Card/>
-
+          <Card />
         </div>
       </div>
       <div>

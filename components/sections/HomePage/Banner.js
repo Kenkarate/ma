@@ -30,9 +30,9 @@ function Banner() {
 
   return (
     <div className="lg:h-screen md:text-center grid lg:grid-cols-2 text-[#0F253D] select-none ">
-      <div className="my-[25%] mx-[25%]">
+      <div className="my-[25%] mx-[25%] xm:order-last sm:order-last md:order-first">
         <div></div>
-        <Reveal>
+        <Reveal> 
           <motion.h1 className="uppercase text-4xl font-extrabold h-20 leading-tight">
             An agency for what comes{" "}
             <motion.p

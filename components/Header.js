@@ -4,7 +4,7 @@ import { Dropdown, Space } from "antd";
 import Link from "next/link";
 import React from "react";
 
-function Header() {
+function Header({color,textColor}) {
   const items = [
     {
       key: "1",
@@ -20,7 +20,7 @@ function Header() {
     },
   ];
   return (
-    <div className="w-full h-[7vh]  flex justify-between select-none text-blueish">
+    <div class="w-full h-[7vh] flex justify-between select-none text-blueish " style={{backgroundColor:color,color:textColor}}>
       <div className="pl-[12vw] my-auto text-lg font-semibold cursor-pointer hidden md:block">
         <Link href={"/"}>Home</Link>
       </div>

@@ -6,12 +6,13 @@ import gallery from "@/public/Digital-Music-Distribution-Sell-Your-Music-Online-
 import nintriva from "@/public/Custom-Software-Development-App-Development-Nintriva_11zon.jpg";
 import suitejar from "@/public/Suitejar-Best-Content-Marketing-Tool-Free-SEO-Tool_11zon.webp";
 import Image from "next/image";
+import { Button } from "antd";
 
 function WebDesignPortfolio() {
   return (
     <>
       <div className="lg:!w-[80vw] lg:!h-[50vh] mx-5 rounded-3xl lg:mx-32 mb-20 lg:!grid lg:!grid-cols-3  select-none pt-20 ">
-        <div className="lg:!col-span-2 row-span-2 w-[90%] h-[350px] lg:!h-[45vh]  rounded-3xl bg-[#ffffff] drop-shadow-2xl mx-auto my-auto overflow-hidden">
+        <div className="lg:!col-span-2 row-span-2 w-[90%] h-[350px]  rounded-3xl bg-[#ffffff] drop-shadow-2xl mx-auto my-auto overflow-hidden">
           <motion.div
             whileHover={{ y: -1600 }}
             transition={{ duration: 10 }}
@@ -48,7 +49,7 @@ function WebDesignPortfolio() {
           </p>
         </div>
       </div>
-      <div className="lg:w-[80vw] lg:h-[50vh] mx-5   rounded-3xl lg:mx-32 flex flex-col-reverse lg:grid lg:grid-cols-3 select-none lg:mt-[25%]" >
+      <div className="lg:w-[80vw] lg:h-[50vh] mx-5   rounded-3xl lg:mx-32 flex flex-col-reverse lg:grid lg:grid-cols-3 select-none lg:mt-[10%]" >
         <div className="py-10 text-center px-5">
           <p className="text-4xl py-2 font-bold cursor-none select-none ">
             Gallery Vision
@@ -71,7 +72,7 @@ function WebDesignPortfolio() {
             </a>
           </p>
         </div>
-        <div className="lg:!col-span-2 w-[90%] lg:!h-[45vh] h-[350px] rounded-3xl bg-[#ffffff] drop-shadow-2xl mx-auto my-auto overflow-hidden ">
+        <div className="lg:!col-span-2 w-[90%] h-[350px] rounded-3xl bg-[#ffffff] drop-shadow-2xl mx-auto my-auto overflow-hidden ">
           <motion.div
             whileHover={{ y: -1600 }}
             transition={{ duration: 10 }}
@@ -85,8 +86,8 @@ function WebDesignPortfolio() {
           </motion.div>
         </div>
       </div>
-      <div className="lg:!w-[80vw] lg:!h-[50vh] mx-5 rounded-3xl lg:mx-32 my-20 lg:!grid lg:!grid-cols-3  select-none lg:mt-[25%]">
-        <div className="lg:!col-span-2 row-span-2 w-[90%] h-[350px] lg:!h-[45vh]  rounded-3xl bg-[#ffffff] drop-shadow-2xl mx-auto my-auto overflow-hidden">
+      <div className="lg:!w-[80vw] lg:!h-[50vh] mx-5 rounded-3xl lg:mx-32 my-20 lg:!grid lg:!grid-cols-3  select-none lg:mt-[10%]">
+        <div className="lg:!col-span-2 row-span-2 w-[90%] h-[350px]  rounded-3xl bg-[#ffffff] drop-shadow-2xl mx-auto my-auto overflow-hidden">
           <motion.div
             whileHover={{ y: -1600 }}
             transition={{ duration: 10 }}
@@ -121,7 +122,7 @@ function WebDesignPortfolio() {
           </p>
         </div>
       </div>
-      <div className="lg:w-[80vw] lg:h-[50vh] mx-5 rounded-3xl lg:mx-32 flex flex-col-reverse lg:grid lg:grid-cols-3 select-none pb-20 lg:mt-[25%]">
+      <div className="lg:w-[80vw] lg:h-[60vh] mx-5 rounded-3xl lg:mx-32 flex flex-col-reverse lg:grid lg:grid-cols-3 select-none  lg:mt-[10%]">
         <div className="py-10 text-center px-5">
           <p className="text-4xl py-2 font-bold cursor-none select-none">
             Suitejar
@@ -143,7 +144,7 @@ function WebDesignPortfolio() {
             </a>
           </p>
         </div>
-        <div className="lg:!col-span-2 w-[90%] lg:!h-[45vh] h-[350px] rounded-3xl bg-[#ffffff] drop-shadow-2xl mx-auto my-auto overflow-hidden">
+        <div className="lg:!col-span-2 w-[90%] h-[350px] rounded-3xl bg-[#ffffff] drop-shadow-2xl mx-auto my-auto overflow-hidden">
           <motion.div
             whileHover={{ y: -1600 }}
             transition={{ duration: 10 }}
@@ -156,6 +157,9 @@ function WebDesignPortfolio() {
             />
           </motion.div>
         </div>
+      </div>
+      <div className="w-[100vw] flex justify-center py-20">
+        <Button className="text-white  ">View More</Button>
       </div>
     </>
   );

@@ -42,7 +42,7 @@ function page() {
         </div>
       </div>
       <div>
-        <p className="text-[40px] font-semibold  text-black py-20 px-20">
+        <p className="text-[40px] font-semibold  text-black py-44 px-20">
           “Your website is the center of your digital eco-system, like a brick
           and mortar location, the experience matters once a customer enters,
           just as much as the perception they have of you before they walk

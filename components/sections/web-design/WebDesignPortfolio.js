@@ -158,7 +158,7 @@ function WebDesignPortfolio() {
           </motion.div>
         </div>
       </div>
-      <div className="w-[100vw] flex justify-center py-20">
+      <div className=" flex justify-center py-20">
         <Button className="text-white  ">View More</Button>
       </div>
     </>

@@ -4,7 +4,7 @@ import React from "react";
 
 function WhatWeProvide() {
   return (
-    <div className="grid grid-cols-3 px-56 py-20 gap-10 bg-white">
+    <div className="grid grid-cols-3 px-56 py-20 gap-10 bg-gray-200">
       <div>
         <Image
           src="https://mwb-agency.com/uploads/websites%20icon.svg"

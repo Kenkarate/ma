@@ -19,7 +19,7 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <main className="">
-      <Header/>
+      <Header color={'#F6E84E'}/>
       <Banner />
       <WhoWeAre />
       <OurMission />

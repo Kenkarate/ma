@@ -6,8 +6,8 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Creative Agency",
-  description: "Creative Agency is a creative agency providing a variety of serivces",
+  title: "NexusCraft Creative agency",
+  description: "NexusCraft Creative agency is a NexusCraft Creative agency providing a variety of serivces",
 };
 
 export default function RootLayout({ children }) {
@@ -24,8 +24,7 @@ export default function RootLayout({ children }) {
           <script src="https://cdn.tailwindcss.com"></script>
           
       </head>
-      <body className="bg-[#F6E84E] text-white">
-        {/* <Header /> */}
+      <body className=" text-black">
         {children}
       </body>
     </html>

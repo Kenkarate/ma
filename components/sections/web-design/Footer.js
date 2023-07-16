@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="bg-gray-100 text-black lg:px-20 px-5 text-center md:text-left">
+    <div className="bg-gray-200 text-black lg:px-20 px-5 text-center md:text-left">
       <div className="grid lg:grid-cols-2 border-b  border-black">
         <div className="py-2">
           <p className="capitalize text-3xl py-10 lg:text-[120px] font-extrabold text-black  leading-tight">
@@ -14,7 +14,7 @@ function Footer() {
             Have a project in mind? Get in touch, and let’s work together!
           </p>
           <p className=" text-[20px] font-normal text-black py-5">
-            Come say hello at marketingangels@gmail.com, or tell us more about
+            Come say hello at nexuscraftagency@gmail.com, or tell us more about
             your project and organization by getting started below.
           </p>
           <button className="border-2 border-black rounded p-2 text-lg font-bold">
@@ -25,8 +25,8 @@ function Footer() {
       <div className="grid lg:grid-cols-3">
         <div className="py-10 p-5">
           <p className="text-2xl font-bold py-2">Contact Us</p>
-          <p>marketingangels@gmail.com</p>
-          <p>123456789</p>
+          <p>nexuscraftagency@gmail.com</p>
+          <p>+91 6238483581</p>
           <p>aluva</p>
         </div>
         <div className="py-10 p-5">

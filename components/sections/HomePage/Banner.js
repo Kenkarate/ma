@@ -29,7 +29,7 @@ function Banner() {
   };
 
   return (
-    <div className="lg:h-screen md:text-center grid lg:grid-cols-2 text-[#0F253D] select-none ">
+    <div className="lg:h-screen md:text-center grid lg:grid-cols-2 text-[#0F253D] select-none bg-[#F6E84E]">
       <div className="my-[25%] mx-[25%] xm:order-last sm:order-last md:order-first">
         <div></div>
         <Reveal> 
@@ -49,7 +49,7 @@ function Banner() {
           <br />
 
           <p className="hidden sm:block">
-            Marketing Angles is an independent branding & marketing agency that
+            NexusCraft is an independent branding & marketing agency that
             exists to solve problems through creativity and technology.{" "}
           </p>
         </Reveal>

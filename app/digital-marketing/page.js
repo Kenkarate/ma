@@ -38,7 +38,7 @@ function page() {
           <Lottie animationData={digilottie} className="h-96" />
         </div>
       </div>
-      <div className="bg-gray-50 py-44 text-blueish ">
+      <div className="bg-gray-200 py-44 text-blueish ">
         <div className=" text-center px-56">
           <p className="uppercase py-5">People buy from people</p>
           <p className="text-2xl">
@@ -52,7 +52,7 @@ function page() {
           </p>
         </div>
       </div>
-      <div className="py-44 text-blueish px-56">
+      <div className="py-44 text-blueish ">
         <p className="lg:text-4xl font-semibold text-center ">
           Services We Provide
         </p>
@@ -60,14 +60,19 @@ function page() {
           Partner with a leading digital marketing agency to increase brand
           awareness, reach your target audience & grow your business online.
         </p>
-        <ol style={{ listStyleType: "disc" }} className="py-10 font-semibold text-2xl">
+        <ol
+          style={{ listStyleType: "disc" }}
+          className="py-10 font-semibold text-2xl px-72"
+        >
+          <li>Branding</li>
           <li>Social Media Managment</li>
-          <li>FaceBook Ads</li>
-          <li>Instagram Ads</li>
+          <li>Instagram,FaceBook and Google Ads</li>
+          <li>Search Engine Optimisation (SEO)</li>
+          <li>Email Marketing,</li>
         </ol>
       </div>
-      <div className="bg-white py-44 text-blueish ">
-        <div className=" text-center px-56">
+      <div className="bg-green-200  py-44 text-blueish ">
+        <div className=" text-center  px-56">
           <p className="uppercase py-5">
             Would you like your clients to keep coming back for more?
           </p>
@@ -82,7 +87,7 @@ function page() {
           </p>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

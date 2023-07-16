@@ -6,18 +6,18 @@ import { Reveal } from "@/components/Reveal";
 
 function OurMission() {
   return (
-    <div className="py-44 px-20 grid lg:grid-cols-2 ">
+    <div className="py-44 px-20 grid lg:grid-cols-2 bg-gray-200">
       <div>
         <Reveal>
-          <p className="text-[70px] text-white uppercase leading-[4rem]">
+          <p className="text-[70px]  uppercase leading-[4rem]">
             Our <br />{" "}
-            <span className="font-bold text-[70px] text-secondary uppercase">
+            <span className="font-bold text-[70px]  uppercase">
               Mission
             </span>
           </p>{" "}
         </Reveal>
         <Reveal>
-          <p className="text-secondary text-xl leading-7 py-5 pr-16 border-l-2 border-secondary pl-5">
+          <p className="text-xl leading-7 py-5 pr-16 border-l-2  pl-5">
             We are on a mission; a very challenging mission. <br />
             <br /> Yes, you got it right. We are on a mission to build a long
             term relationship with you and serving you a perfect social media

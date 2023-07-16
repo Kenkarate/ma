@@ -28,7 +28,7 @@ function page() {
         </video>
       </div>
       <WhatWeProvide/>
-      <div className="bg-blueish">
+      <div className="">
         <motion.h3
           initial={{ x: -1200, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
@@ -42,7 +42,7 @@ function page() {
         </div>
       </div>
       <div>
-        <p className="text-[40px] font-semibold  text-black py-44 px-20">
+        <p className="text-[40px] font-semibold bg-gray-200  text-black py-44 px-20">
           “Your website is the center of your digital eco-system, like a brick
           and mortar location, the experience matters once a customer enters,
           just as much as the perception they have of you before they walk
@@ -51,11 +51,11 @@ function page() {
       </div>
       <div className="bg-secondary py-20 lg:grid lg:grid-cols-2">
         <p className="lg:text-[70px] md:w-[40vw] p-10 font-extrabold leading-tight uppercase text-center md:text-left">
-          Start designing your website with marketing angels
+          Start designing your website with NexusCraft
         </p>
         <div className="text-center ">
           <p>WHAT YOU GET</p>
-          <button className="border-2 border-white rounded-full p-2 text-2xl font-bold">
+          <button className="border-2  rounded-full p-2 text-2xl font-bold">
             Get started
           </button>
         </div>

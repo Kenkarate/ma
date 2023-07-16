@@ -7,10 +7,10 @@ function OurPrinciples() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
   return (
-    <div className="lg:py-44 py-20 bg-secondary">
+    <div className="lg:py-44 py-20 ">
       <div
         ref={ref}
-        className="text-black flex justify-center z-10  relative bg-secondary "
+        className="text-black flex justify-center z-10  relative  "
       >
         <motion.p
           className="text-primary lg:text-[80px] text-[35px] uppercase font-semibold "
@@ -24,7 +24,7 @@ function OurPrinciples() {
           Our Principles
         </motion.p>
       </div>
-      <div className="grid lg:grid-cols-2 lg:px-20 py-20 relative bg-[#0F253D]">
+      <div className="grid lg:grid-cols-2 lg:px-20 py-20 relative ">
         <div className="lg:border-r w-full h-full px-20 py-4 text-right border-primary">
           <p className="text-primary  text-lg font-bold border-b" level={3}>
             Do it with passion or not at all

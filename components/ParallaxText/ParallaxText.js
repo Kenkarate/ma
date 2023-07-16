@@ -59,7 +59,7 @@ export function ParallaxText({ children, baseVelocity = 100 }) {
    */
   return (
     <div className="parallax bg-secondary relative">
-      <motion.div className="scroller relative" style={{ x }}>
+      <motion.div className="scroller relative text-primary" style={{ x }}>
         <span>{children} </span>
         <span>{children} </span>
         <span>{children} </span>

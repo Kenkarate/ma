@@ -35,11 +35,11 @@ function Footer() {
             <p>
               {" "}
               <InstagramOutlined className="px-2 py-2 text-2xl" />:
-              @creative_agnecy
+              NexusCraft.in
             </p>
             <p>
               <FacebookOutlined className="px-2 py-2 text-2xl" />:
-              facebook/creative_agnecy
+              facebook/NexusCraft.in
             </p>
             <p>
               <WhatsAppOutlined className="px-2 py-2 text-2xl" />:

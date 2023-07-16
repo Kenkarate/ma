@@ -9,13 +9,16 @@ import Footer from "@/components/sections/web-design/Footer";
 function page() {
   return (
     <div>
-      <Header color={"black"} textColor={"white"} />
-      <div className="absolute">
+      <Header color={"white"} textColor={"white"} />
+      <div className="grid grid-cols-2 bg-[#FCF5EB]">
         <p className="text-2xl  font-extrabold uppercase p-20">
           Digital marketing
         </p>
+        <div className="bg-[#EFA593]">
+          <Image />
+        </div>
       </div>
-      <div className="bg-black p-10">
+      <div className="bg-white p-10">
         <video
           autoPlay
           loop

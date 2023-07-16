@@ -25,6 +25,7 @@ export default function RootLayout({ children }) {
           
       </head>
       <body className=" text-black">
+        
         {children}
       </body>
     </html>

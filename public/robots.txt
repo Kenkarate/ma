@@ -6,4 +6,4 @@ Allow: /
 Host: https://www.nexuscraft.in
 
 # Sitemaps
-Sitemap: https://www.nexuscraft.in/sitemap.xml
+Sitemap: https://www.nexuscraft.in/api/my-sitemap 

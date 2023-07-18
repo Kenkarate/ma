@@ -1,3 +1,4 @@
+import { FacebookOutlined, GoogleOutlined, InstagramOutlined } from "@ant-design/icons";
 import React from "react";
 
 function Footer() {
@@ -29,11 +30,14 @@ function Footer() {
           <p>+91 6238483581</p>
           <p>aluva</p>
         </div>
-        <div className="py-10 p-5">
-          <p className="text-2xl font-bold py-2">Follow us</p>
-          <p>gmail.com</p>
-          <p>facebook</p>
-          <p>insta</p>
+        <div className="py-10 p-5 ">
+          <p className="text-2xl font-bold py-2 ">Follow us</p>
+          <div className="flex gap-10">
+
+          <a href="mailto:nexuscraftagency@gmail.com"><GoogleOutlined/></a>
+          <a href="https://www.facebook.com/profile.php?id=100095010002760"><FacebookOutlined/></a>
+          <p><InstagramOutlined /></p>
+          </div>
         </div>
         <div className="py-10 p-5">
           <p className="text-2xl font-bold py-2">GET GOOD NEWS</p>

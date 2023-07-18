@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.nexuscraft.in
+
+# Sitemaps
+Sitemap: https://www.nexuscraft.in/sitemap.xml

@@ -8,6 +8,9 @@ import Footer from "@/components/sections/web-design/Footer";
 import laptoppic from "@/public/laptoppic.png";
 import dynamic from "next/dynamic";
 import Services from "@/components/sections/Digital-marketing/Services";
+import logo from "@/public/NexusCraft LOGO/2.png";
+import WhyChooseUs from "@/components/sections/Digital-marketing/WhyChooseUs";
+import Testimonials from "@/components/sections/Digital-marketing/Testimonials";
 
 function page() {
   // mouse cursor
@@ -37,43 +40,31 @@ function page() {
           ".link",
         ]}
       />
-      <Header color={"black"} textColor={"white"} />
-      <div className=" bg-[#FCF5EB]">
-        {/* <p className="text-2xl  font-extrabold uppercase absolute">
-          Digital marketing
-        </p> */}
-        <div className="bg-[#EFA593]">
-          <Image className="" src={laptoppic} />
+      <Header color={"white"} textColor={"black"} />
+      <div className="grid grid-cols-2 h-[90vh] w-full">
+        <div className="mx-auto my-auto">
+          <Image src={logo} />
         </div>
-      </div>
-      {/* <div className="bg-white p-10">
-        <video
-          autoPlay
-          loop
-          muted
-          style={{ width: "100vw", objectFit: "contain" }}
-        >
-          <source src="/brand.mp4" />
-        </video>
-      </div> */}
-      <div className=" text-black py-44 grid grid-cols-2">
-        <div className="my-auto ">
-          <p
-            className="lg:text-2xl px-20 font-semibold text-center"
-            style={{ fontFamily: "monospace" }}
-          >
-            RESULTS-DRIVEN CREATIVE DIGITAL AGENCY FOCUSED ON
-          </p>
-          <p className="lg:text-4xl font-semibold text-center uppercase">
-            Growing Brands Online
+        <div className=" mx-auto my-auto ">
+          <p>Welcome to NexusCraft</p>
+          <h1 className="text-4xl py-5">
+            Turning Clicks into Customers: Tailored Conversion Solutions for
+            Your Business
+          </h1>
+          <p className=" w-[70%] text-justify text-xl">
+            We are the architects of your brand's online success, crafting
+            compelling campaigns that captivate audiences and drive meaningful
+            engagement. With a passion for creativity and a deep understanding
+            of the digital landscape, we harness the power of cutting-edge
+            strategies to propel your business forward.
           </p>
         </div>
-        <div className="bg-white">
-          <Lottie animationData={digilottie} className="h-96" />
-        </div>
       </div>
+      <hr className="lg:mx-44" />
+      <Services />
+
       <div
-        className="bg-gray-200 py-44 text-blueish "
+        className="bg-blue-100 py-20 text-blueish "
         style={{ fontFamily: "monospace" }}
       >
         <div className=" text-center px-56">
@@ -89,9 +80,9 @@ function page() {
           </p>
         </div>
       </div>
-      <Services />
+      <WhyChooseUs />
       <div
-        className="bg-green-200  py-44 text-blueish "
+        className="bg-green-200  py-20 text-blueish "
         style={{ fontFamily: "initial" }}
       >
         <div className=" text-center  px-56">
@@ -109,7 +100,10 @@ function page() {
           </p>
         </div>
       </div>
-      <Footer />
+      <Testimonials />
+      <div className="absolute">
+        <Footer />
+      </div>
     </div>
   );
 }

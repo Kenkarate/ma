@@ -41,17 +41,17 @@ function Services() {
   ];
   return (
     <div
-      className="py-44 text-blueish font-bold"
-      style={{ fontFamily: "fantasy" }}
+      className="py-20 font-bold"
+      
     >
-      <p className="lg:text-4xl font-semibold text-center ">
-        Services We Provide
+      <p className="lg:text-4xl font-semibold text-center py-10">
+      Our Comprehensive Digital Marketing Solutions
       </p>
-      <p className="text-center py-10">
+      {/* <p className="text-center py-10">
         Partner with a leading digital marketing agency to increase brand
         awareness, reach your target audience & grow your business online.
-      </p>
-      <div className="px-56 grid  grid-cols-3">
+      </p> */}
+      <div className="px-56 grid  lg:grid-cols-3">
         {service.map((item) => {
           return (
             <Cards
@@ -62,16 +62,6 @@ function Services() {
           );
         })}
       </div>
-      {/* <ol
-        style={{ listStyleType: "disc" }}
-        className="py-10 font-semibold text-2xl px-72"
-      >
-        <li>Branding</li>
-        <li>Social Media Managment</li>
-        <li>Instagram,FaceBook and Google Ads</li>
-        <li>Search Engine Optimisation (SEO)</li>
-        <li>Email Marketing,</li>
-      </ol> */}
     </div>
   );
 }

@@ -51,7 +51,7 @@ function Services() {
         Partner with a leading digital marketing agency to increase brand
         awareness, reach your target audience & grow your business online.
       </p> */}
-      <div className="px-56 grid  lg:grid-cols-3">
+      <div className="lg:px-56 grid justify-center  lg:grid-cols-3">
         {service.map((item) => {
           return (
             <Cards

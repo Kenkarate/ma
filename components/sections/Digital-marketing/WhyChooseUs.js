@@ -8,12 +8,12 @@ import collab from "@/public/collab.png";
 
 function WhyChooseUs() {
   return (
-    <div className=" bg-opacity-50 px-44 py-20">
-      <h2 className="text-[90px] font-semibold">
+    <div className=" bg-opacity-50 lg:px-44 py-20">
+      <h2 className="lg:text-[90px] text-3xl text-center lg:text-left font-semibold">
         Why Choose NexusCraft <span className="text-red-800">???</span>
       </h2>
       <div className="">
-        <div className="grid grid-cols-2 py-16">
+        <div className="grid lg:grid-cols-2 lg:py-16">
           <div className="p-10 my-auto p">
             <h3 className="my-auto text-2xl py-5">1: Experienced Team of Experts</h3>
             <p className="text-gray-500">
@@ -29,9 +29,9 @@ function WhyChooseUs() {
           </div>
           <Image src={logo} className="" />
         </div>
-        <div className="grid grid-cols-2 py-16">
-          <Image src={stratergy} className="" />
-          <div className="p-10 my-auto">
+        <div className="grid md:grid-cols-2  lg:py-16">
+          <Image src={stratergy} className="px-5" />
+          <div className="p-10 my-auto -order-1 lg:order-1">
             <h3 className="my-auto text-2xl py-5">
               2: Customized Strategies for Your Business
             </h3>
@@ -59,7 +59,7 @@ function WhyChooseUs() {
               </ul>
           </div>
         </div>
-        <div className="grid grid-cols-2 py-16">
+        <div className="grid lg:grid-cols-2 lg:py-16">
           <div className="my-auto p-10 text-justify">
             <h3 className="my-auto text-2xl py-5">
               3: Measurable Results and ROI Focus
@@ -83,9 +83,9 @@ function WhyChooseUs() {
           </div>
           <Image src={roi} className="" />
         </div>
-        <div className="grid grid-cols-2 py-16">
+        <div className="grid lg:grid-cols-2 lg:py-16">
           <Image src={support} className="" />
-          <div className="my-auto p-10">
+          <div className="my-auto p-10 -order-1 lg:order-1">
             <h3 className="my-auto text-2xl py-5">
               4: Transparent Reporting and Ongoing Support
             </h3>
@@ -100,7 +100,7 @@ function WhyChooseUs() {
             </p>
           </div>
         </div>
-        <div className="grid grid-cols-2 py-16">
+        <div className="grid lg:grid-cols-2 lg:py-16">
           <div className="my-auto p-10">
             <h3 className="my-auto text-2xl py-5">
               5: Collaborative Partnership Approach

@@ -41,17 +41,17 @@ function page() {
         ]}
       />
       <Header color={"white"} textColor={"black"} />
-      <div className="grid grid-cols-2 h-[90vh] w-full">
+      <div className="grid lg:grid-cols-2 lg:h-[90vh] w-full px-10">
         <div className="mx-auto my-auto">
           <Image src={logo} />
         </div>
-        <div className=" mx-auto my-auto ">
+        <div className=" mx-auto my-auto text-center lg:text-left">
           <p>Welcome to NexusCraft</p>
-          <h1 className="text-4xl py-5">
+          <h1 className="text-4xl py-5 lg:w-[70%]">
             Turning Clicks into Customers: Tailored Conversion Solutions for
             Your Business
           </h1>
-          <p className=" w-[70%] text-justify text-xl">
+          <p className=" lg:w-[70%] text-justify text-xl">
             We are the architects of your brand's online success, crafting
             compelling campaigns that captivate audiences and drive meaningful
             engagement. With a passion for creativity and a deep understanding
@@ -67,7 +67,7 @@ function page() {
         className="bg-blue-100 py-20 text-blueish "
         style={{ fontFamily: "monospace" }}
       >
-        <div className=" text-center px-56">
+        <div className=" text-center lg:px-56 px-10">
           <p className="uppercase py-5">People buy from people</p>
           <p className="text-2xl">
             When you have a brand identity that matches your voice, values,
@@ -82,14 +82,14 @@ function page() {
       </div>
       <WhyChooseUs />
       <div
-        className="bg-green-200  py-20 text-blueish "
+        className="bg-green-200 py-10 px-10 lg:py-20 text-blueish "
         style={{ fontFamily: "initial" }}
       >
-        <div className=" text-center  px-56">
+        <div className=" text-center  lg:px-56">
           <p className="uppercase py-5">
             Would you like your clients to keep coming back for more?
           </p>
-          <p className="text-4xl">
+          <p className="lg:text-4xl">
             Then you must connect with them on a deeper level. We search for the
             core brand values and soul of your business to give your people a
             meaningful experience.{" "}
